@@ -42,6 +42,12 @@
  *
  */
 
+import 'jquery';
+import '@popperjs/core';
+import 'bootstrap';
+//import 'firebase/compat';
+
+
 /***************************************************************************************************
  * Zone JS is required by default for Angular itself.
  */
