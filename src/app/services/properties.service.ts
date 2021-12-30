@@ -27,7 +27,7 @@ export class PropertiesService {
 
   getProperties() {
     const bdd = getDatabase();
-    set(ref(bdd, "properties"), this.properties);
+    //set(ref(bdd, "properties"), this.properties);
     onValue(ref(bdd, "properties"), (data) => {
       this.properties = data.val() ? data.val() : [];
         this.emitProperties();
